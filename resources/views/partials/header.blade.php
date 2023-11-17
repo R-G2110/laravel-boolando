@@ -17,7 +17,7 @@
 
             <div class="logo">
                 <a href="#">
-                    <img src="/img/boolean-logo.png" alt="boolean-logo">
+                    <img src="/logo/boolean-logo.png" alt="boolean-logo">
                 </a>
             </div>
 
