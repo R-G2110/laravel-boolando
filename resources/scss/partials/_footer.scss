@@ -4,13 +4,17 @@ h5,
 	}
 
 
-	footer{
+	footer {
+        color: white;
         margin-top: 50px;
         padding: 20px;
         background-color: #1A1A1A;
-        a:hover {
-            cursor: pointer;
-            color: #FF6900;
+        a {
+            color: white;
+            &:hover {
+                cursor: pointer;
+                color: #FF6900;
+            }
         }
 		.privacy a {
 		  font-size: 10px;

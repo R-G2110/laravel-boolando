@@ -10,13 +10,13 @@
             <nav>
                 <ul class="flex">
                     @foreach ($menu_genere as $item)
-                        <li><a href="">{{ $item['text'] }}</a></li>
+                        <li><a href="/{{ $item['href'] }}">{{ $item['text'] }}</a></li>
                     @endforeach
                 </ul>
             </nav>
 
             <div class="logo">
-                <a href="#">
+                <a href="/">
                     <img src="/logo/boolean-logo.png" alt="boolean-logo">
                 </a>
             </div>
