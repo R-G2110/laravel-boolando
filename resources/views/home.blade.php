@@ -34,8 +34,8 @@
                         <span class="item-name">{{$product['itemName']}}</span>
                         <span class="c-price">{{$product['currPrice']}}&euro;</span>
                         <span
-                            class="{{$product['discount'] === 0 ? 'hide' :''}}"
-                            class="o-price"
+                            class="{{$product['discount'] === 0 ? 'hide' :'o-price'}}"
+
                         >{{$product['origPrice']}}&euro;</span>
                     </div>
 
